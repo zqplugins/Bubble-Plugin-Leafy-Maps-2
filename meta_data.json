@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "ecommerce",
+        "1": "health & fitness",
+        "2": "media",
+        "3": "mobile",
+        "4": "location"
+    },
+    "description": "This plugin has been recently acquired by Zeroqode - please bear with us while we review the code and make improvements/fixes where necessary.\n\nA free, powerful and flexible map plugin based on Leaflet.\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/leafy-maps-plugin-for-bubble-1712925442341x370054831641231100\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com ",
+    "image": "//meta-q.cdn.bubble.io/f1714742100545x494502106220220860/Leafy%20Maps.webp",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Leafy Maps",
+    "plugin_instructions": "Use the search tool in that topic, there is a lot of information scattered in several posts.",
+    "sa_node_version": 18
+}

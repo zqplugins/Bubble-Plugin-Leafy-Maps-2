@@ -1,0 +1,106 @@
+{
+    "assets": {
+        "ABE": {
+            "name": "my icon shadow",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564167608320x554071841235934900/marker-shadow.png"
+        },
+        "ABF": {
+            "name": "brown marker",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564170365919x415802668829707840/brown_marker.png"
+        },
+        "ABG": {
+            "name": "yellow marker",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564170374547x229722995590253600/yellow_marker.png"
+        },
+        "ABH": {
+            "name": "green marker",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564170384003x782559689703375100/green_marker.png"
+        },
+        "ABI": {
+            "name": "red marker",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564170393314x384017959683047300/red_marker.png"
+        },
+        "ABJ": {
+            "name": "black marker",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564170401815x674587151186880900/black_marker.png"
+        },
+        "ABM": {
+            "name": "blue marker",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564171493719x438702278353580350/blue_marker.png"
+        },
+        "ABQ": {
+            "name": "white marker",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564178688812x132572725832933660/white_marker.png"
+        },
+        "ABX": {
+            "name": "leafy logo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564191446462x458266197031595970/three-leaves.png"
+        },
+        "ABY": {
+            "name": "bg",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1564192295493x883459422171276200/Kazam_screenshot_00000.png"
+        },
+        "ADh": {
+            "name": "pencil",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1591364526380x334180475752705800/pencil.png"
+        },
+        "AEk": {
+            "name": "new leaflet",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1600950880742x923580300813200400/leaflet.js"
+        },
+        "AJB": {
+            "name": "delete cursor",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1633479047441x275536831844399580/delete.png"
+        },
+        "AJW": {
+            "name": "drawing-lib",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1638203702359x224817964230026300/drawing-lib.js"
+        },
+        "AJh": {
+            "name": "usefulfunctions",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1640191632473x564774773206991200/usefulFunctions.js"
+        },
+        "AJw": {
+            "name": "geolib",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1653077396175x424933691083395650/index.js"
+        },
+        "ANz": {
+            "name": "decodeFlexiblePolyline",
+            "url": "//meta-q.cdn.bubble.io/f1721743894958x148042061067264130/flexiblePolyline.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "4",
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "AAp": {
+            "caption": "Mapbox access token",
+            "type": "client_safe"
+        },
+        "ACU": {
+            "caption": "Openweathermap API key",
+            "type": "client_safe"
+        },
+        "AEn": {
+            "caption": "Here access token",
+            "type": "client_safe"
+        },
+        "AJl": {
+            "caption": "Maptiler access token",
+            "type": "client_safe"
+        },
+        "AKV": {
+            "caption": "Here API access key",
+            "type": "secure"
+        },
+        "AKW": {
+            "caption": "Here API secret key",
+            "type": "secure"
+        },
+        "ANq": {
+            "caption": "ESRI key",
+            "type": "secure"
+        }
+    }
+}
