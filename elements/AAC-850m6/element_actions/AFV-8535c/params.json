@@ -3,6 +3,7 @@
     "fields": {
         "AFk": {
             "caption": "Route name",
+            "doc": "The name of the route to hide",
             "editor": "DynamicValue",
             "name": "route_name",
             "rank": 0,

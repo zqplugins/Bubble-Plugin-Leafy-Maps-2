@@ -3,6 +3,7 @@
     "fields": {
         "AAw": {
             "caption": "List of latitudes",
+            "doc": "A list of latitude values to be used when use_encoded_shape_polyline is false.",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "list_of_latitudes",
@@ -12,6 +13,7 @@
         },
         "AAx": {
             "caption": "List of longitudes",
+            "doc": "A list of longitude values to be used when use_encoded_shape_polyline is false.",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "list_of_longitudes",
@@ -22,6 +24,7 @@
         "AAy": {
             "caption": "Line color",
             "default_val": "rgba(235, 153, 0, 1)",
+            "doc": "The color of the polyline stroke.",
             "editor": "Color",
             "name": "stroke_color",
             "rank": 6
@@ -45,7 +48,7 @@
         "ABv": {
             "caption": "Use encoded shape?",
             "default_val": false,
-            "doc": "",
+            "doc": "Determines whether to use an encoded polyline shape or separate latitude and longitude lists.",
             "editor": "Checkbox",
             "name": "use_encoded_shape_polyline",
             "optional": true,

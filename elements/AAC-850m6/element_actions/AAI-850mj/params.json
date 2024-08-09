@@ -38,24 +38,17 @@
         },
         "AAh": {
             "caption": "Custom icon",
-            "doc": "",
+            "doc": "A string containing the URL for the custom icon image. This is used when use_custom_icon is true.",
             "editor": "DynamicValue",
             "name": "custom_icon_url",
             "optional": true,
             "rank": 6,
             "value": "image"
         },
-        "AAi": {
-            "caption": "Custom icon shadow",
-            "editor": "DynamicValue",
-            "name": "custom_icon_shadow_url",
-            "optional": true,
-            "rank": 7,
-            "value": "image"
-        },
         "ABK": {
             "caption": "Marker style",
             "default_val": "Blue",
+            "doc": "determines the color of the marker icon when not using a custom icon. Possible values include \"Blue\", \"Yellow\", \"Green\", \"Red\", \"Brown\", \"White\", and \"Black\".",
             "editor": "Dropdown",
             "name": "marker_style",
             "options": "Blue,Yellow,Green,Red,Brown,White,Black",
@@ -74,7 +67,7 @@
             "doc": "A unique name to this marker, so you can perform actions on it later on by refering to its name. Also, when it's clicked you'll see its name on the map element field called Marker Clicked ID. If you leave this blank then no action will be performed on it when clicked,",
             "editor": "DynamicValue",
             "name": "marker_name",
-            "rank": 8,
+            "rank": 7,
             "value": "text"
         }
     }

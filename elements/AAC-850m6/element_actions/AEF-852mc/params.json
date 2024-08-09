@@ -21,6 +21,7 @@
         "AEJ": {
             "caption": "Stroke color",
             "default_val": "rgba(9, 124, 219, 1)",
+            "doc": "Defines the color of the stroke (outline) of the circle.",
             "editor": "Color",
             "name": "stroke_color",
             "optional": true,
@@ -57,6 +58,7 @@
         "AEN": {
             "caption": "Fill color",
             "default_val": "rgba(29, 138, 15, 1)",
+            "doc": "Determines the fill color of the circle.",
             "editor": "Color",
             "name": "fill_color",
             "rank": 9
@@ -89,6 +91,7 @@
         },
         "AEU": {
             "caption": "Latitude",
+            "doc": "The latitude coordinate where the circle is centered.",
             "editor": "DynamicValue",
             "name": "latitude",
             "rank": 2,
@@ -96,6 +99,7 @@
         },
         "AEV": {
             "caption": "Longitude",
+            "doc": "The longitude coordinate where the circle is centered.",
             "editor": "DynamicValue",
             "name": "longitude",
             "rank": 3,

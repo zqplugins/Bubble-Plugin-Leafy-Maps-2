@@ -4,6 +4,7 @@
     "fields": {
         "ADg": {
             "caption": "Polygons list",
+            "doc": "A string containing JSON data for the polygons.",
             "editor": "DynamicValue",
             "long_text": true,
             "name": "json",
@@ -13,6 +14,7 @@
         "ADn": {
             "caption": "Stroke color",
             "default_val": "rgba(77, 3, 62, 1)",
+            "doc": "Color of the polygon's stroke.",
             "editor": "Color",
             "name": "stroke_color",
             "optional": true,
@@ -21,7 +23,7 @@
         "ADo": {
             "caption": "Stroke weight",
             "default_val": 3,
-            "doc": "In pixels.",
+            "doc": "The width of the stroke in pixels.",
             "editor": "DynamicValue",
             "name": "stroke_weight",
             "optional": true,
@@ -31,7 +33,7 @@
         "ADp": {
             "caption": "Stroke opacity",
             "default_val": 1,
-            "doc": "In percentage. So 1 is 100% and 0.5 is 50%.",
+            "doc": "A number between 0 and 1 representing the opacity of the stroke.",
             "editor": "DynamicValue",
             "name": "stroke_opacity",
             "optional": true,
@@ -41,6 +43,7 @@
         "ADq": {
             "caption": "Line cap",
             "default_val": "round",
+            "doc": "Style of the line endings (e.g., \"round\").",
             "editor": "Dropdown",
             "name": "line_cap",
             "optional": true,
@@ -50,6 +53,7 @@
         "ADr": {
             "caption": "Line join",
             "default_val": "round",
+            "doc": "The style of line joins (e.g., \"round\").",
             "editor": "Dropdown",
             "name": "line_join",
             "optional": true,
@@ -59,6 +63,7 @@
         "ADs": {
             "caption": "Polygon fill",
             "default_val": true,
+            "doc": "Whether to fill the polygon.",
             "editor": "Checkbox",
             "name": "polygon_fill",
             "optional": true,
@@ -68,6 +73,7 @@
         "ADt": {
             "caption": "Fill color",
             "default_val": "rgba(158, 41, 41, 1)",
+            "doc": "Color of the polygon fill.",
             "editor": "Color",
             "name": "fill_color",
             "optional": true,
@@ -76,6 +82,7 @@
         "ADu": {
             "caption": "Fill opacity",
             "default_val": 0.2,
+            "doc": "A number between 0 and 1 representing the opacity of the fill.",
             "editor": "DynamicValue",
             "name": "fill_opacity",
             "optional": true,
@@ -85,6 +92,7 @@
         "AJG": {
             "caption": "Draw stroke",
             "default_val": true,
+            "doc": "Whether to draw the polygon's stroke.",
             "editor": "Checkbox",
             "name": "draw_stroke",
             "rank": 1
@@ -92,6 +100,7 @@
         "AJH": {
             "caption": "Zoom map to this upon creation?",
             "default_val": true,
+            "doc": "Whether the map should zoom to fit the polygon.",
             "editor": "Checkbox",
             "name": "zoom_map_to_this_polygon",
             "rank": 10
@@ -99,7 +108,7 @@
         "AJJ": {
             "caption": "Polygon name",
             "default_val": "polygon",
-            "doc": "",
+            "doc": "A name for the polygon (optional).",
             "editor": "DynamicValue",
             "name": "polygon_name",
             "rank": 12,
@@ -162,6 +171,7 @@
         },
         "AKy": {
             "caption": "Stroke weights",
+            "doc": "List of stroke weights",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "stroke_weights",
@@ -171,6 +181,7 @@
         },
         "AKz": {
             "caption": "Stroke opacities",
+            "doc": "List of stroke opacities",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "stroke_opacitys",
@@ -180,6 +191,7 @@
         },
         "ALA": {
             "caption": "Line caps",
+            "doc": "List of line caps",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "line_caps",
@@ -189,6 +201,7 @@
         },
         "ALB": {
             "caption": "Line joins",
+            "doc": "List of line joins",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "line_joins",
@@ -198,6 +211,7 @@
         },
         "ALC": {
             "caption": "Polygon fills",
+            "doc": "List of polygon fills",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "polygon_fills",
@@ -207,6 +221,7 @@
         },
         "ALD": {
             "caption": "Fill colors",
+            "doc": "List of polygon fill colors",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "fill_colors",
@@ -216,6 +231,7 @@
         },
         "ALE": {
             "caption": "Fill opacities",
+            "doc": "List of polygon fill opacities",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "fill_opacitys",

@@ -12,6 +12,7 @@
         "AJq": {
             "caption": "Marker style",
             "default_val": "Red",
+            "doc": "Style of the default marker icon (\"Blue\", \"Yellow\", \"Green\", \"Red\", \"Brown\", \"White\", \"Black\").",
             "editor": "Dropdown",
             "name": "marker_style",
             "options": "Blue,Yellow,Green,Red,Brown,White,Black",

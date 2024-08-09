@@ -18,7 +18,7 @@
         },
         "AAO": {
             "caption": "Initial view latitude",
-            "doc": "",
+            "doc": "Number used to set the initial center point latitude of the map view",
             "editor": "DynamicValue",
             "name": "initial_view_latitude",
             "rank": 3,
@@ -26,6 +26,7 @@
         },
         "AAP": {
             "caption": "Initial view longitude",
+            "doc": "Number used to set the initial center point longitude of the map view",
             "editor": "DynamicValue",
             "name": "initial_view_longitude",
             "rank": 4,
@@ -49,6 +50,7 @@
         },
         "AAv": {
             "caption": "Stadia tile",
+            "doc": "Specifies the tile style when using Stadia as the provider.",
             "editor": "Dropdown",
             "name": "stadia_tile",
             "optional": true,
@@ -75,7 +77,7 @@
         },
         "AEm": {
             "caption": "HERE tile",
-            "doc": "",
+            "doc": "Specifies the tile scheme when using Here as the provider.",
             "editor": "Dropdown",
             "name": "here_tile",
             "optional": true,
@@ -91,6 +93,7 @@
         "AGn": {
             "caption": "HERE Font color",
             "default_val": "rgba(17, 59, 122, 1)",
+            "doc": "HERE tooltip font color",
             "editor": "Color",
             "name": "tp_color",
             "rank": 14
@@ -98,7 +101,7 @@
         "AGo": {
             "caption": "HERE Background color",
             "default_val": "rgba(230, 230, 230, 1)",
-            "doc": "",
+            "doc": "HERE tooltip backgroundcolor",
             "editor": "Color",
             "name": "tp_bg",
             "rank": 15
@@ -106,13 +109,14 @@
         "AGp": {
             "caption": "HERE Border color",
             "default_val": "rgba(230, 230, 230, 0.75)",
+            "doc": "HERE tooltip border color",
             "editor": "Color",
             "name": "border_color",
             "rank": 16
         },
         "AGq": {
             "caption": "HERE Border radius",
-            "doc": "Example: 4",
+            "doc": "HERE tooltip border radius",
             "editor": "DynamicValue",
             "name": "border_radius",
             "optional": true,

@@ -3,6 +3,7 @@
     "fields": {
         "AFs": {
             "caption": "Route name",
+            "doc": "The route name to remove the marker from",
             "editor": "DynamicValue",
             "name": "route_name",
             "rank": 0,
@@ -11,6 +12,7 @@
         "AFt": {
             "caption": "Marker index (from origin)",
             "default_val": 1,
+            "doc": "The index of the marker to remove",
             "editor": "DynamicValue",
             "name": "marker",
             "rank": 1,

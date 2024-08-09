@@ -3,6 +3,7 @@
     "fields": {
         "AFh": {
             "caption": "Text",
+            "doc": "Enter a free-text query",
             "editor": "DynamicValue",
             "name": "text",
             "rank": 0,

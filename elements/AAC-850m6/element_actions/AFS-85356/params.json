@@ -3,6 +3,7 @@
     "fields": {
         "AFe": {
             "caption": "Route name",
+            "doc": "The name of the route to edit",
             "editor": "DynamicValue",
             "name": "route_name",
             "rank": 0,
@@ -10,12 +11,14 @@
         },
         "AFf": {
             "caption": "Color",
+            "doc": "The new color for the route",
             "editor": "Color",
             "name": "color",
             "rank": 1
         },
         "AFg": {
             "caption": "Distance limit",
+            "doc": "The new distance limit for the route",
             "editor": "DynamicValue",
             "name": "distance_limit",
             "optional": true,

@@ -3,6 +3,7 @@
     "fields": {
         "AFi": {
             "caption": "Route name",
+            "doc": "The name of the route to show",
             "editor": "DynamicValue",
             "name": "route_name",
             "rank": 0,
@@ -11,6 +12,7 @@
         "AFj": {
             "caption": "Zoom to route",
             "default_val": true,
+            "doc": "Whether to zoom to the route",
             "editor": "Checkbox",
             "name": "zoom_to_route",
             "rank": 1,

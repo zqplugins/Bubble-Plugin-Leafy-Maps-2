@@ -4,7 +4,7 @@
         "AKG": {
             "caption": "draw_stroke",
             "default_val": true,
-            "doc": "",
+            "doc": "Enable or disable stroke. The line of the circle.",
             "editor": "DynamicValue",
             "name": "draw_stroke",
             "rank": 1,
@@ -13,7 +13,7 @@
         "AKH": {
             "caption": "stroke_color",
             "default_val": "rgba(0, 229, 250, 1)",
-            "doc": "",
+            "doc": "Defines the color of the stroke (outline) of the circle.",
             "editor": "Color",
             "name": "stroke_color",
             "rank": 2,
@@ -40,6 +40,7 @@
         "AKK": {
             "caption": "circle_fill",
             "default_val": true,
+            "doc": "Enable or disable filling, the color inside the circle.",
             "editor": "DynamicValue",
             "name": "circle_fill",
             "rank": 5,
@@ -48,6 +49,7 @@
         "AKL": {
             "caption": "fill_color",
             "default_val": "rgba(255, 0, 0, 1)",
+            "doc": "Determines the fill color of the circle.",
             "editor": "Color",
             "name": "fill_color",
             "rank": 6

@@ -4,6 +4,7 @@
         "AEp": {
             "caption": "Origin address",
             "default_val": "",
+            "doc": "The starting address of the route(string, required if Use coordinates is false).",
             "editor": "DynamicValue",
             "name": "origin_address",
             "rank": 0,
@@ -11,6 +12,7 @@
         },
         "AEq": {
             "caption": "Destination address",
+            "doc": "The ending address of the route(string, required if Use coordinates is false).",
             "editor": "DynamicValue",
             "name": "destination_address",
             "rank": 1,
@@ -19,12 +21,14 @@
         "AEr": {
             "caption": "Use coordinates",
             "default_val": false,
+            "doc": "Determines whether to use coordinates or addresses for routing.",
             "editor": "Checkbox",
             "name": "use_coordinates",
             "rank": 3
         },
         "AEs": {
             "caption": "Latitude list",
+            "doc": "(list of numbers, required if use_coordinates is true): A list of latitude values for the route points.",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "latitude_list",
@@ -34,6 +38,7 @@
         },
         "AEt": {
             "caption": "Longitude list",
+            "doc": "(list of numbers, required if use_coordinates is true): A list of longitude values for the route points.",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "longitude_list",
@@ -43,6 +48,7 @@
         },
         "AEu": {
             "caption": "Route name",
+            "doc": " A name or identifier for the route.",
             "editor": "DynamicValue",
             "name": "route_name",
             "rank": 6,
@@ -51,6 +57,7 @@
         "AEv": {
             "caption": "Route color",
             "default_val": "rgba(85, 224, 85, 1)",
+            "doc": "The color of the route on the map.",
             "editor": "Color",
             "name": "route_color",
             "rank": 7
@@ -58,12 +65,14 @@
         "AEw": {
             "caption": "Base route color",
             "default_val": "rgba(255, 255, 255, 1)",
+            "doc": "The color of the base route on the map",
             "editor": "Color",
             "name": "base_route_color",
             "rank": 8
         },
         "AEy": {
             "caption": "Distance limit",
+            "doc": "The maximum allowed distance for the route. If not provided, defaults to 99999999.",
             "editor": "DynamicValue",
             "name": "distance_limit",
             "optional": true,
@@ -87,6 +96,7 @@
         },
         "AFB": {
             "caption": "Tunnel category",
+            "doc": "Specifies the cargo tunnel restriction code. Route will pass only through tunnels of less restrictive categories.  Limitations: only valid when transportMode is one of (truck, bus, privateBus).",
             "editor": "Dropdown",
             "name": "tunnel_category",
             "optional": true,
@@ -95,6 +105,7 @@
         },
         "AFE": {
             "caption": "Axle count",
+            "doc": "Specifies the total number of axles the vehicle has, i.e., axles on the base vehicle and any attached trailers.  Limitations: Considered for route calculation when transportMode is one of (truck, bus, privateBus).",
             "editor": "DynamicValue",
             "name": "axle_count",
             "optional": true,
@@ -121,6 +132,7 @@
         },
         "AFH": {
             "caption": "Height",
+            "doc": "Vehicle height, specified in centimeters.  Limitations: Considered for route calculation when transportMode is one of (truck, bus, privateBus).",
             "editor": "DynamicValue",
             "name": "height",
             "optional": true,
@@ -129,6 +141,7 @@
         },
         "AFI": {
             "caption": "Width",
+            "doc": "Vehicle width, specified in centimeters.  Limitations: Considered for route calculation when transportMode is one of (truck, bus, privateBus). ",
             "editor": "DynamicValue",
             "name": "width",
             "optional": true,
@@ -137,6 +150,7 @@
         },
         "AFJ": {
             "caption": "Length",
+            "doc": "Vehicle length, specified in centimeters.  Limitations: Considered for route calculation when transportMode is one of (truck, bus, privateBus).",
             "editor": "DynamicValue",
             "name": "length",
             "optional": true,
@@ -145,6 +159,7 @@
         },
         "AFK": {
             "caption": "Shipped hazardous goods",
+            "doc": "Hazardous goods restrictions refer to the limitations and regulations imposed on the transportation of specific types of hazardous materials during a trip.  A comma-separated list of hazardous goods being shipped in the vehicle. The following values are possible:  explosive: Materials that are capable of causing an explosion. gas: Gas (definition varies from country to country). For details, check here. flammable: Materials that are easily ignited and capable of catching fire. combustible: Materials that have the potential to burn or catch fire. organic: Materials derived from living organisms or containing carbon compounds. poison: Substances that can cause harm or death when ingested, inhaled, or absorbed. radioactive: Materials that emit radiation and pose potential health risks. corrosive: Substances that can cause damage or destruction through chemical reactions. poisonousInhalation: Materials that are toxic when inhaled. harmfulToWater: Materials that can cause pollution or harm to water bodies. other: Other types of hazardous materials not covered by the above categories. Limitations: Considered for route calculation when transportMode is one of (truck, bus, privateBus).",
             "editor": "Dropdown",
             "name": "shipped_hazardous_goods",
             "optional": true,
@@ -153,6 +168,7 @@
         },
         "AFL": {
             "caption": "Weights per axle (tandem)",
+            "doc": "Specifies the weights of different axle groups, such as single and tandem axles.  This allows specification of axle weights in a more fine-grained way than weightPerAxle. This is relevant in countries with signs and regulations that specify different limits for different axle groups, such as the USA and Sweden.  All axle group weights are evaluated against their respective axle group restrictions and against generic axle weight restrictions. This means that the provided tandem axle group weight is compared with all tandem axle group weight restrictions and all generic axle weight restrictions. The same is true for single, triple, quad, and quint axle groups.  Format: AxleGroup:Weight[,AxleGroup2:Weight2]...  Currently, allowed axle-groups are:  single tandem triple quad quint Weights are specified in kilograms (kg) and represent the total weight of the axle-group.  Note: weightPerAxleGroup and weightPerAxle are incompatible.  Limitations: only valid when transportMode is one of (truck, bus, privateBus).",
             "editor": "DynamicValue",
             "name": "weights_per_axle_tandem",
             "optional": true,
@@ -161,25 +177,20 @@
         },
         "AFM": {
             "caption": "Weights per axle (single)",
+            "doc": "Specifies the weights of different axle groups, such as single and tandem axles.  This allows specification of axle weights in a more fine-grained way than weightPerAxle. This is relevant in countries with signs and regulations that specify different limits for different axle groups, such as the USA and Sweden.  All axle group weights are evaluated against their respective axle group restrictions and against generic axle weight restrictions. This means that the provided tandem axle group weight is compared with all tandem axle group weight restrictions and all generic axle weight restrictions. The same is true for single, triple, quad, and quint axle groups.  Format: AxleGroup:Weight[,AxleGroup2:Weight2]...  Currently, allowed axle-groups are:  single tandem triple quad quint Weights are specified in kilograms (kg) and represent the total weight of the axle-group.  Note: weightPerAxleGroup and weightPerAxle are incompatible.  Limitations: only valid when transportMode is one of (truck, bus, privateBus).",
             "editor": "DynamicValue",
             "name": "weights_per_axle_single",
             "optional": true,
             "rank": 21,
             "value": "number"
         },
-        "AFN": {
-            "caption": "Trailer forbidden",
-            "default_val": false,
-            "editor": "Checkbox",
-            "name": "trailer_forbidden",
-            "rank": 22
-        },
         "AFO": {
             "caption": "Trailers count",
+            "doc": "The number of trailers attached to the vehicle.  Limitations: Considered for route calculation when transportMode is one of (truck, bus, privateBus).",
             "editor": "DynamicValue",
             "name": "trailers_count",
             "optional": true,
-            "rank": 23,
+            "rank": 22,
             "value": "number"
         },
         "AOA": {

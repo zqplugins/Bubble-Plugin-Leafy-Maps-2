@@ -3,6 +3,7 @@
     "fields": {
         "ACh": {
             "caption": "Point latitude",
+            "doc": " A number representing the latitude of the point to be checked.",
             "editor": "DynamicValue",
             "name": "point_latitude",
             "rank": 1,
@@ -10,6 +11,7 @@
         },
         "ACi": {
             "caption": "Point longitude",
+            "doc": "A number representing the longitude of the point to be checked.",
             "editor": "DynamicValue",
             "name": "point_longitude",
             "rank": 2,

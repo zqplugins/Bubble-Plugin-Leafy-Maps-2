@@ -5,6 +5,7 @@
         "ADw": {
             "caption": "Stroke",
             "default_val": true,
+            "doc": "A boolean value (default: true) determining if a stroke should be drawn around shapes.",
             "editor": "DynamicValue",
             "name": "stroke",
             "optional": true,
@@ -13,6 +14,7 @@
         },
         "ADx": {
             "caption": "Stroke color",
+            "doc": "A string (default: 'black') specifying the color of the stroke.",
             "editor": "Color",
             "name": "color",
             "optional": true,
@@ -20,6 +22,7 @@
         },
         "ADy": {
             "caption": "Stroke weight",
+            "doc": "A number (default: 1) defining the width of the stroke in pixels.",
             "editor": "DynamicValue",
             "name": "weight",
             "optional": true,
@@ -28,6 +31,7 @@
         },
         "ADz": {
             "caption": "Stroke opacity",
+            "doc": "A number between 0 and 1 (default: 1) setting the opacity of the stroke.",
             "editor": "DynamicValue",
             "name": "opacity",
             "optional": true,
@@ -36,6 +40,7 @@
         },
         "AEA": {
             "caption": "Line cap",
+            "doc": "A string (default: 'butt') specifying the shape of the end of lines. Options are 'butt', 'round', or 'square'.",
             "editor": "Dropdown",
             "name": "lineCap",
             "optional": true,
@@ -44,6 +49,7 @@
         },
         "AEB": {
             "caption": "Line join",
+            "doc": "A string (default: 'round') determining how line segments are joined. Options are 'miter', 'round', or 'bevel'.",
             "editor": "Dropdown",
             "name": "lineJoin",
             "optional": true,
@@ -53,6 +59,7 @@
         "AEC": {
             "caption": "Polygon fill",
             "default_val": true,
+            "doc": "A boolean value (default: true) indicating whether to fill shapes.",
             "editor": "DynamicValue",
             "name": "fill",
             "optional": true,
@@ -61,6 +68,7 @@
         },
         "AED": {
             "caption": "Fill color",
+            "doc": "A string (default: 'black') specifying the fill color of shapes.",
             "editor": "Color",
             "name": "fillColor",
             "optional": true,
@@ -68,6 +76,7 @@
         },
         "AEE": {
             "caption": "Fill opacity",
+            "doc": "A number between 0 and 1 (default: 0.5) setting the opacity of the fill.",
             "editor": "DynamicValue",
             "name": "fillOpacity",
             "optional": true,
@@ -77,6 +86,7 @@
         "AEl": {
             "caption": "Show distance",
             "default_val": true,
+            "doc": " A boolean value indicating whether to display distance information.",
             "editor": "DynamicValue",
             "name": "show_distance",
             "rank": 9,

@@ -3,6 +3,7 @@
     "fields": {
         "AFz": {
             "caption": "Table source",
+            "doc": "The source table containing route data",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "table_source",
@@ -11,12 +12,14 @@
         },
         "AGA": {
             "caption": "Table type",
+            "doc": "Table data type",
             "editor": "custom_type",
             "name": "table_type",
             "rank": 1
         },
         "AGB": {
             "caption": "Latitude field",
+            "doc": "The field name in the table source that contains latitude values.",
             "editor": "custom_field_AGA",
             "field_list": true,
             "field_type_restriction": "number",
@@ -25,6 +28,7 @@
         },
         "AGC": {
             "caption": "Longitude field",
+            "doc": "The field name in the table source that contains longitude values.",
             "editor": "custom_field_AGA",
             "field_list": true,
             "field_type_restriction": "number",
@@ -33,13 +37,16 @@
         },
         "AGD": {
             "caption": "Color field",
+            "doc": "The field name for the route color. If not provided, defaults to \"#000000\" (black).",
             "editor": "custom_field_AGA",
             "field_type_restriction": "text_image_file",
             "name": "color_field",
+            "optional": true,
             "rank": 4
         },
         "AGE": {
             "caption": "Name field",
+            "doc": "The field name for the route name. If not provided, routes will be named \"Route_[timestamp]\".",
             "editor": "custom_field_AGA",
             "field_type_restriction": "text_image_file",
             "name": "name_field",
@@ -47,6 +54,7 @@
         },
         "AGF": {
             "caption": "Distance limit field",
+            "doc": "The field name for the route distance limit. If not provided, defaults to Infinity.",
             "editor": "custom_field_AGA",
             "field_type_restriction": "number",
             "name": "distance_limit_field",
@@ -55,12 +63,14 @@
         "AGG": {
             "caption": "Show all routes",
             "default_val": true,
+            "doc": "If true, all routes will be displayed on the map. Defaults to true.",
             "editor": "Checkbox",
             "name": "show_all_routes",
             "rank": 8
         },
         "AGZ": {
             "caption": "Route restriction field",
+            "doc": "The field name containing route restrictions. Each restriction should be in the format \"key:value\".",
             "editor": "custom_field_AGA",
             "field_list": true,
             "field_type_restriction": "text_image_file",
@@ -69,6 +79,7 @@
         },
         "AGf": {
             "caption": "Base color field",
+            "doc": "The field name for the route base color. If not provided, defaults to \"#808080\" (gray).",
             "editor": "custom_field_AGA",
             "field_type_restriction": "text_image_file",
             "name": "base_color_field",
