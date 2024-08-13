@@ -1,0 +1,14 @@
+{
+    "caption": "Show HERE route summary",
+    "doc": "",
+    "fields": {
+        "AFr": {
+            "caption": "Route name",
+            "doc": "The route name to show the summary",
+            "editor": "DynamicValue",
+            "name": "route_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

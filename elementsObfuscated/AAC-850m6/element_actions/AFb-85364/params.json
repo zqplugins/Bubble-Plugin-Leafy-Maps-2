@@ -1,0 +1,13 @@
+{
+    "caption": "Update HERE base route",
+    "fields": {
+        "AFv": {
+            "caption": "Route name",
+            "doc": "The route name to update the base for",
+            "editor": "DynamicValue",
+            "name": "route_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

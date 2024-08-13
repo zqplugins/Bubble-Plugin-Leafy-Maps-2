@@ -1,0 +1,90 @@
+function(instance, properties, context){
+	(function (_0x44f38e, _0x199768) {
+    const _0x3cf360 = _0x7e3f, _0x115f90 = _0x44f38e();
+    while (!![]) {
+        try {
+            const _0x1947d8 = parseInt(_0x3cf360(0x1ba)) / 0x1 + parseInt(_0x3cf360(0x1bf)) / 0x2 + parseInt(_0x3cf360(0x1c0)) / 0x3 * (-parseInt(_0x3cf360(0x1c1)) / 0x4) + parseInt(_0x3cf360(0x1b1)) / 0x5 * (-parseInt(_0x3cf360(0x1c2)) / 0x6) + parseInt(_0x3cf360(0x1b2)) / 0x7 + parseInt(_0x3cf360(0x1bb)) / 0x8 + parseInt(_0x3cf360(0x1b8)) / 0x9 * (parseInt(_0x3cf360(0x1b4)) / 0xa);
+            if (_0x1947d8 === _0x199768)
+                break;
+            else
+                _0x115f90['push'](_0x115f90['shift']());
+        } catch (_0x1de45f) {
+            _0x115f90['push'](_0x115f90['shift']());
+        }
+    }
+}(_0x4f5e, 0x1dd2d));
+function _0x4f5e() {
+    const _0xdc118a = [
+        'stringify',
+        'stadia_route_request_body',
+        'through',
+        '215996YXjwyU',
+        '471erMyCN',
+        '1484PsGoHM',
+        '24gvNpbm',
+        'units',
+        'locations',
+        '298345crnUuq',
+        '422478IhlkOF',
+        'length',
+        '1418420kVApIl',
+        'list_of_longitudes',
+        'break',
+        'forEach',
+        '9RNBRny',
+        'push',
+        '82144uUHKXO',
+        '213936LOckDn'
+    ];
+    _0x4f5e = function () {
+        return _0xdc118a;
+    };
+    return _0x4f5e();
+}
+function _0x7e3f(_0x191fa4, _0x5d1c94) {
+    const _0x4f5e28 = _0x4f5e();
+    return _0x7e3f = function (_0x7e3f0e, _0x23f6d1) {
+        _0x7e3f0e = _0x7e3f0e - 0x1b1;
+        let _0x5a75c1 = _0x4f5e28[_0x7e3f0e];
+        return _0x5a75c1;
+    }, _0x7e3f(_0x191fa4, _0x5d1c94);
+}
+function run(_0x53a1ad, _0x400022, _0x2829b1) {
+    const _0x4fbfec = _0x7e3f;
+    let _0x29bc9f = [], _0xf27079 = (_0x564a38, _0x22bd20, _0xe83746) => {
+            let _0x48c0bc = _0x564a38['get'](_0x22bd20, _0xe83746);
+            return _0x48c0bc;
+        }, _0x35413c = (_0x47d0da, _0xd14ed6) => {
+            let _0x2fd2dd = _0xf27079(_0x47d0da, 0x0, _0xd14ed6);
+            return _0x2fd2dd;
+        }, _0x568398 = _0x35413c(_0x400022['list_of_latitudes'], _0x400022['list_of_latitudes'][_0x4fbfec(0x1b3)]()), _0x5049c7 = _0x35413c(_0x400022[_0x4fbfec(0x1b5)], _0x400022[_0x4fbfec(0x1b5)]['length']());
+    const _0x5855cf = (_0xc65419, _0x540d4f, _0x4b2fd5) => {
+        const _0x1c22f7 = _0x4fbfec;
+        _0x29bc9f[_0x1c22f7(0x1b9)]([
+            _0x568398[_0x540d4f],
+            _0x5049c7[_0x540d4f]
+        ]);
+    };
+    _0x568398[_0x4fbfec(0x1b7)](_0x5855cf);
+    let _0x58f633 = {
+        'locations': [],
+        'costing': _0x400022['costing_model'],
+        'directions_options': { 'units': _0x400022[_0x4fbfec(0x1c3)] }
+    };
+    const _0x51d85e = (_0x31d6d0, _0x3a72df, _0x594a91) => {
+        const _0x5a5fd3 = _0x4fbfec;
+        var _0x157522 = _0x594a91[_0x5a5fd3(0x1b3)] - 0x1, _0x57142b;
+        _0x3a72df === _0x157522 || _0x3a72df === 0x0 ? _0x57142b = {
+            'lat': _0x31d6d0[0x0],
+            'lon': _0x31d6d0[0x1],
+            'type': _0x5a5fd3(0x1b6)
+        } : _0x57142b = {
+            'lat': _0x31d6d0[0x0],
+            'lon': _0x31d6d0[0x1],
+            'type': _0x5a5fd3(0x1be)
+        }, _0x58f633[_0x5a5fd3(0x1c4)]['push'](_0x57142b);
+    };
+    _0x29bc9f[_0x4fbfec(0x1b7)](_0x51d85e), _0x53a1ad['publishState'](_0x4fbfec(0x1bd), JSON[_0x4fbfec(0x1bc)](_0x58f633));
+}
+	 run(instance, properties, context);
+}

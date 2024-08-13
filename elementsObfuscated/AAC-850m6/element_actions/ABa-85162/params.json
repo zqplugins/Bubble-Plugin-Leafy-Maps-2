@@ -1,0 +1,116 @@
+{
+    "caption": "Draw polygon on",
+    "fields": {
+        "ABb": {
+            "caption": "List of latitudes",
+            "doc": "A list of latitude values",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_of_latitudes",
+            "rank": 1,
+            "value": "number"
+        },
+        "ABc": {
+            "caption": "List of longitudes",
+            "doc": "A list of longitude values",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_of_longitudes",
+            "rank": 2,
+            "value": "number"
+        },
+        "ABd": {
+            "caption": "Draw stroke",
+            "default_val": true,
+            "doc": "Whether to draw the polygon's stroke.",
+            "editor": "Checkbox",
+            "name": "draw_stroke",
+            "rank": 3
+        },
+        "ABe": {
+            "caption": "Stroke color",
+            "default_val": "rgba(10, 4, 77, 1)",
+            "doc": "Color of the polygon's stroke.",
+            "editor": "Color",
+            "name": "stroke_color",
+            "rank": 4
+        },
+        "ABf": {
+            "caption": "Stroke weight",
+            "default_val": 3,
+            "doc": "The width of the stroke in pixels.",
+            "editor": "DynamicValue",
+            "name": "stroke_weight",
+            "rank": 5,
+            "value": "number"
+        },
+        "ABg": {
+            "caption": "Stroke opacity",
+            "default_val": 1,
+            "doc": "A number between 0 and 1 representing the opacity of the stroke.",
+            "editor": "DynamicValue",
+            "name": "stroke_opacity",
+            "rank": 6,
+            "value": "number"
+        },
+        "ABi": {
+            "caption": "Fill color",
+            "default_val": "rgba(0, 159, 191, 1)",
+            "doc": "Color of the polygon fill.",
+            "editor": "Color",
+            "name": "fill_color",
+            "rank": 8
+        },
+        "ABj": {
+            "caption": "Fill opacity",
+            "default_val": 0.2,
+            "doc": "A number between 0 and 1 representing the opacity of the fill.",
+            "editor": "DynamicValue",
+            "name": "fill_opacity",
+            "rank": 9,
+            "value": "number"
+        },
+        "ABk": {
+            "caption": "Polygon name",
+            "doc": "Write a unique name to this polygon so you can refer to it later on, for example to focus user's view on this polygon on a click of a button or some other event or action that you may want.",
+            "editor": "DynamicValue",
+            "name": "polygon_name",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABl": {
+            "caption": "Zoom map to this upon creation?",
+            "default_val": true,
+            "doc": "Whether to zoom the map to fit this polygon.",
+            "editor": "Checkbox",
+            "name": "zoom_map_to_this_polygon",
+            "rank": 12
+        },
+        "ABm": {
+            "caption": "Polygon fill",
+            "default_val": true,
+            "doc": "Whether to fill the polygon.",
+            "editor": "Checkbox",
+            "name": "polygon_fill",
+            "rank": 7
+        },
+        "ACB": {
+            "caption": "Line cap",
+            "default_val": "round",
+            "doc": "Style of the line endings (e.g., \"round\").",
+            "editor": "Dropdown",
+            "name": "line_cap",
+            "options": "butt,round,square",
+            "rank": 10
+        },
+        "ACC": {
+            "caption": "Line join",
+            "default_val": "round",
+            "doc": "The style of line joins (e.g., \"round\").",
+            "editor": "Dropdown",
+            "name": "line_join",
+            "options": "miter,round,bevel",
+            "rank": 11
+        }
+    }
+}

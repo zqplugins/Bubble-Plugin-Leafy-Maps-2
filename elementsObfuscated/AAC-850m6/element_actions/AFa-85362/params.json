@@ -1,0 +1,13 @@
+{
+    "caption": "Remove HERE route marker on click",
+    "fields": {
+        "AFu": {
+            "caption": "Route name",
+            "doc": "The route name to remove the marker from",
+            "editor": "DynamicValue",
+            "name": "route_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "caption": "Set drawing style",
+    "doc": "This action change the drawing style.",
+    "fields": {
+        "ADw": {
+            "caption": "Stroke",
+            "default_val": true,
+            "doc": "A boolean value (default: true) determining if a stroke should be drawn around shapes.",
+            "editor": "DynamicValue",
+            "name": "stroke",
+            "optional": true,
+            "rank": 0,
+            "value": "boolean"
+        },
+        "ADx": {
+            "caption": "Stroke color",
+            "doc": "A string (default: 'black') specifying the color of the stroke.",
+            "editor": "Color",
+            "name": "color",
+            "optional": true,
+            "rank": 1
+        },
+        "ADy": {
+            "caption": "Stroke weight",
+            "doc": "A number (default: 1) defining the width of the stroke in pixels.",
+            "editor": "DynamicValue",
+            "name": "weight",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "ADz": {
+            "caption": "Stroke opacity",
+            "doc": "A number between 0 and 1 (default: 1) setting the opacity of the stroke.",
+            "editor": "DynamicValue",
+            "name": "opacity",
+            "optional": true,
+            "rank": 3,
+            "value": "number"
+        },
+        "AEA": {
+            "caption": "Line cap",
+            "doc": "A string (default: 'butt') specifying the shape of the end of lines. Options are 'butt', 'round', or 'square'.",
+            "editor": "Dropdown",
+            "name": "lineCap",
+            "optional": true,
+            "options": "butt,round,square",
+            "rank": 4
+        },
+        "AEB": {
+            "caption": "Line join",
+            "doc": "A string (default: 'round') determining how line segments are joined. Options are 'miter', 'round', or 'bevel'.",
+            "editor": "Dropdown",
+            "name": "lineJoin",
+            "optional": true,
+            "options": "miter,round,bevel",
+            "rank": 5
+        },
+        "AEC": {
+            "caption": "Polygon fill",
+            "default_val": true,
+            "doc": "A boolean value (default: true) indicating whether to fill shapes.",
+            "editor": "DynamicValue",
+            "name": "fill",
+            "optional": true,
+            "rank": 6,
+            "value": "boolean"
+        },
+        "AED": {
+            "caption": "Fill color",
+            "doc": "A string (default: 'black') specifying the fill color of shapes.",
+            "editor": "Color",
+            "name": "fillColor",
+            "optional": true,
+            "rank": 7
+        },
+        "AEE": {
+            "caption": "Fill opacity",
+            "doc": "A number between 0 and 1 (default: 0.5) setting the opacity of the fill.",
+            "editor": "DynamicValue",
+            "name": "fillOpacity",
+            "optional": true,
+            "rank": 8,
+            "value": "number"
+        },
+        "AEl": {
+            "caption": "Show distance",
+            "default_val": true,
+            "doc": " A boolean value indicating whether to display distance information.",
+            "editor": "DynamicValue",
+            "name": "show_distance",
+            "rank": 9,
+            "value": "boolean"
+        }
+    }
+}

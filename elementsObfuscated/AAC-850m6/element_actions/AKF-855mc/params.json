@@ -1,0 +1,90 @@
+{
+    "caption": "Start fixed central circle filter",
+    "fields": {
+        "AKG": {
+            "caption": "draw_stroke",
+            "default_val": true,
+            "doc": "Enable or disable stroke. The line of the circle.",
+            "editor": "DynamicValue",
+            "name": "draw_stroke",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AKH": {
+            "caption": "stroke_color",
+            "default_val": "rgba(0, 229, 250, 1)",
+            "doc": "Defines the color of the stroke (outline) of the circle.",
+            "editor": "Color",
+            "name": "stroke_color",
+            "rank": 2,
+            "value": "text"
+        },
+        "AKI": {
+            "caption": "stroke_weight",
+            "default_val": 3,
+            "doc": "Stroke width in pixels, default is 3.",
+            "editor": "DynamicValue",
+            "name": "stroke_weight",
+            "rank": 3,
+            "value": "number"
+        },
+        "AKJ": {
+            "caption": "stroke_opacity",
+            "default_val": 1,
+            "doc": "Default is 1.0.",
+            "editor": "DynamicValue",
+            "name": "stroke_opacity",
+            "rank": 4,
+            "value": "number"
+        },
+        "AKK": {
+            "caption": "circle_fill",
+            "default_val": true,
+            "doc": "Enable or disable filling, the color inside the circle.",
+            "editor": "DynamicValue",
+            "name": "circle_fill",
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AKL": {
+            "caption": "fill_color",
+            "default_val": "rgba(255, 0, 0, 1)",
+            "doc": "Determines the fill color of the circle.",
+            "editor": "Color",
+            "name": "fill_color",
+            "rank": 6
+        },
+        "AKM": {
+            "caption": "fill_opacity",
+            "default_val": 0.2,
+            "doc": "Default is 0.2.",
+            "editor": "DynamicValue",
+            "name": "fill_opacity",
+            "rank": 7,
+            "value": "number"
+        },
+        "AKN": {
+            "caption": "radius",
+            "default_val": 200,
+            "doc": "Number, in meters.",
+            "editor": "DynamicValue",
+            "name": "radius",
+            "rank": 8,
+            "value": "number"
+        },
+        "AKO": {
+            "caption": "Circle name",
+            "doc": "Write a unique name to this circle so you can refer to it later on, for example to change its radiues or focus user's view on this circle on a click of a button or some other event or action that you may want.",
+            "editor": "DynamicValue",
+            "name": "circle_name",
+            "rank": 9,
+            "value": "text"
+        },
+        "AKc": {
+            "caption": "Incomplete feature, will do nothing. Check back in a newer version.",
+            "editor": "Label",
+            "name": "incomplete_feature,_will_do_nothing._check_back_in_a_newer_version.",
+            "rank": 0
+        }
+    }
+}

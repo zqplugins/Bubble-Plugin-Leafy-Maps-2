@@ -1,0 +1,13 @@
+{
+    "caption": "Add HERE route marker on click",
+    "fields": {
+        "AFc": {
+            "caption": "Route name",
+            "doc": "The route name to add the marker to",
+            "editor": "DynamicValue",
+            "name": "route_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

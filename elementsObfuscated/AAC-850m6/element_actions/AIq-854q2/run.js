@@ -1,0 +1,77 @@
+function(instance, properties, context){
+	function _0x1425(_0x3be46a, _0x3ea8e8) {
+    const _0x353361 = _0x3533();
+    return _0x1425 = function (_0x1425bf, _0x38c54b) {
+        _0x1425bf = _0x1425bf - 0x10d;
+        let _0x3c6df7 = _0x353361[_0x1425bf];
+        return _0x3c6df7;
+    }, _0x1425(_0x3be46a, _0x3ea8e8);
+}
+function _0x3533() {
+    const _0x13cec2 = [
+        'polygon_class_name',
+        'get',
+        'push',
+        'latitude',
+        '956812XipBmm',
+        '1316qLkRpZ',
+        '117xhWiAZ',
+        '25FeHysI',
+        '1339764BpqmBs',
+        '634420vFwyUx',
+        'length',
+        'function',
+        'polygon',
+        '11611616AEHIsM',
+        '2759589wdKVJJ',
+        '1283qhDhZL',
+        '3768666zBTIzO',
+        'longitude',
+        'addTo',
+        'data',
+        'data_source'
+    ];
+    _0x3533 = function () {
+        return _0x13cec2;
+    };
+    return _0x3533();
+}
+(function (_0x2bf18c, _0x155f31) {
+    const _0x19bc25 = _0x1425, _0x4634d6 = _0x2bf18c();
+    while (!![]) {
+        try {
+            const _0x4161a0 = parseInt(_0x19bc25(0x10f)) / 0x1 * (-parseInt(_0x19bc25(0x11a)) / 0x2) + parseInt(_0x19bc25(0x110)) / 0x3 + parseInt(_0x19bc25(0x119)) / 0x4 * (-parseInt(_0x19bc25(0x11c)) / 0x5) + -parseInt(_0x19bc25(0x11d)) / 0x6 + -parseInt(_0x19bc25(0x10e)) / 0x7 + parseInt(_0x19bc25(0x10d)) / 0x8 + parseInt(_0x19bc25(0x11b)) / 0x9 * (parseInt(_0x19bc25(0x11e)) / 0xa);
+            if (_0x4161a0 === _0x155f31)
+                break;
+            else
+                _0x4634d6['push'](_0x4634d6['shift']());
+        } catch (_0xa787a2) {
+            _0x4634d6['push'](_0x4634d6['shift']());
+        }
+    }
+}(_0x3533, 0xd58ae));
+function run(_0x2956ce, _0x43b136, _0x45d06a) {
+    const _0x2936b0 = _0x1425, _0x272ca3 = function (_0x3f73cd) {
+            const _0x2e041c = _0x1425;
+            if (!_0x3f73cd)
+                return [];
+            if (typeof _0x3f73cd[_0x2e041c(0x116)] !== _0x2e041c(0x120))
+                return [];
+            if (typeof _0x3f73cd['length'] !== _0x2e041c(0x120))
+                return [];
+            return _0x3f73cd[_0x2e041c(0x116)](0x0, _0x3f73cd[_0x2e041c(0x11f)]());
+        };
+    let _0x39e161 = _0x272ca3(_0x43b136[_0x2936b0(0x114)]);
+    for (let _0x7bce07 = 0x0; _0x7bce07 < _0x39e161[_0x2936b0(0x11f)]; _0x7bce07++) {
+        let _0x6e82bd = _0x39e161[_0x7bce07]['get'](_0x43b136[_0x2936b0(0x118)]), _0x14ed37 = _0x272ca3(_0x6e82bd), _0x29349a = _0x39e161[_0x7bce07]['get'](_0x43b136[_0x2936b0(0x111)]), _0x418024 = _0x272ca3(_0x29349a), _0x47c380 = [];
+        for (let _0x1301d0 = 0x0; _0x1301d0 < _0x14ed37['length']; _0x1301d0++) {
+            _0x47c380[_0x2936b0(0x117)]([
+                _0x14ed37[_0x1301d0],
+                _0x418024[_0x1301d0]
+            ]);
+        }
+        _0x2956ce['data']['' + _0x43b136[_0x2936b0(0x115)] + (_0x7bce07 + 0x1)] = L[_0x2936b0(0x121)](_0x47c380)[_0x2936b0(0x112)](_0x2956ce[_0x2936b0(0x113)]['mymap']);
+    }
+}
+	 run(instance, properties, context);
+}

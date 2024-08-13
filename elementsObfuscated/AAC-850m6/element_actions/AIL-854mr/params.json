@@ -1,0 +1,15 @@
+{
+    "caption": "Delete vertex",
+    "doc": "This action delete vertex when drawing.",
+    "fields": {
+        "AIM": {
+            "caption": "All",
+            "default_val": false,
+            "doc": "Determines whether to delete all vertices or just a single vertex.",
+            "editor": "DynamicValue",
+            "name": "all",
+            "rank": 0,
+            "value": "boolean"
+        }
+    }
+}

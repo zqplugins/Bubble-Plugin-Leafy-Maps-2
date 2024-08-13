@@ -1,0 +1,62 @@
+function(instance, properties){
+	(function (_0xf3d670, _0x498a8a) {
+    const _0x4cc78c = _0x5679, _0x3fe084 = _0xf3d670();
+    while (!![]) {
+        try {
+            const _0x4e1547 = parseInt(_0x4cc78c(0xe5)) / 0x1 * (parseInt(_0x4cc78c(0xd8)) / 0x2) + parseInt(_0x4cc78c(0xd6)) / 0x3 * (-parseInt(_0x4cc78c(0xdd)) / 0x4) + -parseInt(_0x4cc78c(0xcf)) / 0x5 * (-parseInt(_0x4cc78c(0xd4)) / 0x6) + parseInt(_0x4cc78c(0xd1)) / 0x7 * (-parseInt(_0x4cc78c(0xdf)) / 0x8) + parseInt(_0x4cc78c(0xd7)) / 0x9 + -parseInt(_0x4cc78c(0xd9)) / 0xa + -parseInt(_0x4cc78c(0xe4)) / 0xb * (-parseInt(_0x4cc78c(0xe6)) / 0xc);
+            if (_0x4e1547 === _0x498a8a)
+                break;
+            else
+                _0x3fe084['push'](_0x3fe084['shift']());
+        } catch (_0x39fa9d) {
+            _0x3fe084['push'](_0x3fe084['shift']());
+        }
+    }
+}(_0x4d5d, 0x9a047));
+function _0x4d5d() {
+    const _0x997575 = [
+        'background-repeat',
+        '6326442WjZqAd',
+        'background-position',
+        '163641xykqyf',
+        '5816412kbAaLT',
+        '638rrtwjf',
+        '5012120ApyRdR',
+        'width',
+        'append',
+        'bubble',
+        '76mOTomT',
+        'no-repeat',
+        '232FRUXDA',
+        'canvas',
+        'css',
+        'height',
+        'center',
+        '4994YuVgbq',
+        '17VTwqEP',
+        '43308TWrEpX',
+        '5ytAypz',
+        'url(https://dd7tel2830j4w.cloudfront.net/f1564192295493x883459422171276200/Kazam_screenshot_00000.png)',
+        '283892FJPdpe',
+        '<div></div>'
+    ];
+    _0x4d5d = function () {
+        return _0x997575;
+    };
+    return _0x4d5d();
+}
+function _0x5679(_0x389b8b, _0x362eb5) {
+    const _0x4d5d28 = _0x4d5d();
+    return _0x5679 = function (_0x5679f0, _0x2b84f4) {
+        _0x5679f0 = _0x5679f0 - 0xcf;
+        let _0x148763 = _0x4d5d28[_0x5679f0];
+        return _0x148763;
+    }, _0x5679(_0x389b8b, _0x362eb5);
+}
+function preview(_0x311fac, _0x2bcdbd) {
+    const _0x46f9a5 = _0x5679;
+    let _0x34ceed = $(_0x46f9a5(0xd2));
+    _0x311fac[_0x46f9a5(0xe0)][_0x46f9a5(0xdb)](_0x34ceed), _0x34ceed['css'](_0x46f9a5(0xe2), _0x2bcdbd[_0x46f9a5(0xdc)][_0x46f9a5(0xe2)]), _0x34ceed[_0x46f9a5(0xe1)](_0x46f9a5(0xda), _0x2bcdbd[_0x46f9a5(0xdc)][_0x46f9a5(0xda)]), _0x34ceed[_0x46f9a5(0xe1)]('background-image', _0x46f9a5(0xd0)), _0x34ceed[_0x46f9a5(0xe1)](_0x46f9a5(0xd3), _0x46f9a5(0xde)), _0x34ceed[_0x46f9a5(0xe1)](_0x46f9a5(0xd5), _0x46f9a5(0xe3));
+}
+	 preview(instance, properties);
+}

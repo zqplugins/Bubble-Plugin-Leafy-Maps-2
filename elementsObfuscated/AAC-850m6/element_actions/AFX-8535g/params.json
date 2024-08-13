@@ -1,0 +1,48 @@
+{
+    "caption": "Add HERE route marker",
+    "fields": {
+        "AFm": {
+            "caption": "Route name",
+            "doc": "The name of the route to which the marker should be added.",
+            "editor": "DynamicValue",
+            "name": "route_name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AFn": {
+            "caption": "Latitude",
+            "doc": "The latitude of the marker position.",
+            "editor": "DynamicValue",
+            "name": "latitude",
+            "optional": true,
+            "rank": 1,
+            "value": "number"
+        },
+        "AFo": {
+            "caption": "Longitude",
+            "doc": "The longitude of the marker position.",
+            "editor": "DynamicValue",
+            "name": "longitude",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "AFp": {
+            "caption": "Use address instead",
+            "default_val": false,
+            "doc": "If true, the action will use an address instead of coordinates to add the marker.",
+            "editor": "Checkbox",
+            "name": "use_address_instead",
+            "rank": 3
+        },
+        "AFq": {
+            "caption": "Address",
+            "doc": "The address to geocode and use for the marker position.",
+            "editor": "DynamicValue",
+            "name": "address",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        }
+    }
+}

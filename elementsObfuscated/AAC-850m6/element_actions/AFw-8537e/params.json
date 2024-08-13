@@ -1,0 +1,13 @@
+{
+    "caption": "Show this HERE route only and zoom",
+    "fields": {
+        "AFx": {
+            "caption": "Route name",
+            "doc": "The name of the route to show",
+            "editor": "DynamicValue",
+            "name": "route_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}
