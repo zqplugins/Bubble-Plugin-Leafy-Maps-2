@@ -23,11 +23,11 @@ function(instance, properties, context) {
     if(properties.popup_on_click && properties.use_custom_icon) {
         let myIcon = L.icon({
             iconUrl: `https:${properties.custom_icon_url}`,
-            iconSize:     [64, 64], // size of the icon
+            iconSize:     [properties.marker_width, properties.marker_height], // size of the icon
             shadowSize:   [50, 64], // size of the shadow
-            iconAnchor:   [32, 64], // point of the icon which will correspond to marker's location
+            iconAnchor:   [properties.marker_width/2, properties.marker_height], // point of the icon which will correspond to marker's location
             shadowAnchor: [4, 62],  // the same for the shadow
-            popupAnchor: [0, -64]   // point from which the popup should open relative to the iconAnchor
+            popupAnchor: [0, -properties.marker_height]   // point from which the popup should open relative to the iconAnchor
         });
 
         instance.data[`${properties.marker_name}`] = L.marker([properties.latitude, properties.longitude], { icon: myIcon }).on('click', markerClicked).on('mouseover', markerHovered).on('mouseout', markerUnHovered).addTo(instance.data.mymap).bindPopup(properties.popup_text);
@@ -49,11 +49,11 @@ function(instance, properties, context) {
 
         let myIcon = L.icon({
             iconUrl: `https:${properties.custom_icon_url}`,
-            iconSize:     [64, 64], // size of the icon
+            iconSize:     [properties.marker_width, properties.marker_height], // size of the icon
             shadowSize:   [50, 64], // size of the shadow
-            iconAnchor:   [32, 64], // point of the icon which will correspond to marker's location
+            iconAnchor:   [properties.marker_width/2, properties.marker_height], // point of the icon which will correspond to marker's location
             shadowAnchor: [4, 62],  // the same for the shadow
-            popupAnchor: [0, -64]   // point from which the popup should open relative to the iconAnchor
+            popupAnchor: [0, -properties.marker_height]   // point from which the popup should open relative to the iconAnchor
 
         });
 

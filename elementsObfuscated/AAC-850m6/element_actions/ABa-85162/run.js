@@ -1,97 +1,95 @@
 function(instance, properties, context){
-	function _0x4e5c(_0x2ada12, _0x14241f) {
-    const _0x5475a2 = _0x5475();
-    return _0x4e5c = function (_0x4e5c45, _0x2848d5) {
-        _0x4e5c45 = _0x4e5c45 - 0xde;
-        let _0x563a30 = _0x5475a2[_0x4e5c45];
-        return _0x563a30;
-    }, _0x4e5c(_0x2ada12, _0x14241f);
-}
-function _0x5475() {
-    const _0x7cdf25 = [
-        'publishState',
-        '494772SIdorU',
-        'list_of_longitudes',
-        '510300DpNWOT',
-        '997812BZYDBr',
-        '10818210flMQRf',
-        'forEach',
-        'fitBounds',
-        'click',
-        'fill_opacity',
-        'polygon_fill',
-        '2tFfaNI',
-        '28EmRHrv',
-        'length',
-        'line_cap',
-        'fill_color',
-        'push',
-        'get',
-        'addTo',
-        'line_join',
-        'stroke_opacity',
-        'mymap',
-        'polygon',
-        'list_of_latitudes',
-        '766608AaYRKs',
-        '16iTGAiR',
-        'zoom_map_to_this_polygon',
-        'data',
-        '75519PfKdPK',
-        '6947KZOsxs'
-    ];
-    _0x5475 = function () {
-        return _0x7cdf25;
-    };
-    return _0x5475();
-}
-(function (_0x313afb, _0x176875) {
-    const _0xa17ce = _0x4e5c, _0x571dbb = _0x313afb();
+	(function (_0x517de6, _0x26eee2) {
+    const _0x1f87c3 = _0x11d3, _0x5a862d = _0x517de6();
     while (!![]) {
         try {
-            const _0x23a6ac = -parseInt(_0xa17ce(0xec)) / 0x1 * (parseInt(_0xa17ce(0xf8)) / 0x2) + -parseInt(_0xa17ce(0xeb)) / 0x3 * (parseInt(_0xa17ce(0xe8)) / 0x4) + -parseInt(_0xa17ce(0xf0)) / 0x5 + parseInt(_0xa17ce(0xee)) / 0x6 * (-parseInt(_0xa17ce(0xf9)) / 0x7) + -parseInt(_0xa17ce(0xe7)) / 0x8 + -parseInt(_0xa17ce(0xf1)) / 0x9 + parseInt(_0xa17ce(0xf2)) / 0xa;
-            if (_0x23a6ac === _0x176875)
+            const _0x5f5c5d = -parseInt(_0x1f87c3(0xae)) / 0x1 * (parseInt(_0x1f87c3(0xa1)) / 0x2) + -parseInt(_0x1f87c3(0xad)) / 0x3 + -parseInt(_0x1f87c3(0xa4)) / 0x4 * (-parseInt(_0x1f87c3(0xb1)) / 0x5) + -parseInt(_0x1f87c3(0xa8)) / 0x6 + parseInt(_0x1f87c3(0xb6)) / 0x7 * (-parseInt(_0x1f87c3(0xa2)) / 0x8) + -parseInt(_0x1f87c3(0xac)) / 0x9 + parseInt(_0x1f87c3(0xb4)) / 0xa * (parseInt(_0x1f87c3(0xb8)) / 0xb);
+            if (_0x5f5c5d === _0x26eee2)
                 break;
             else
-                _0x571dbb['push'](_0x571dbb['shift']());
-        } catch (_0x371ae4) {
-            _0x571dbb['push'](_0x571dbb['shift']());
+                _0x5a862d['push'](_0x5a862d['shift']());
+        } catch (_0x402c71) {
+            _0x5a862d['push'](_0x5a862d['shift']());
         }
     }
-}(_0x5475, 0x51edc));
-function run(_0x538bde, _0x4f1145, _0x2ab46d) {
-    const _0x5aa66e = _0x4e5c;
-    let _0x424b07 = [], _0x1c4df4 = (_0x2ee480, _0x24970e, _0xa84562) => {
-            const _0x3fa3e5 = _0x4e5c;
-            let _0x8e75e6 = _0x2ee480[_0x3fa3e5(0xe0)](_0x24970e, _0xa84562);
-            return _0x8e75e6;
-        }, _0x38b8ef = (_0x260dea, _0x415a90) => {
-            let _0x488533 = _0x1c4df4(_0x260dea, 0x0, _0x415a90);
-            return _0x488533;
-        }, _0x26fd5b = _0x38b8ef(_0x4f1145[_0x5aa66e(0xe6)], _0x4f1145[_0x5aa66e(0xe6)][_0x5aa66e(0xfa)]()), _0x2aa1ee = _0x38b8ef(_0x4f1145['list_of_longitudes'], _0x4f1145[_0x5aa66e(0xef)]['length']());
-    const _0x572cc7 = (_0x492cc5, _0x26444a, _0x724cb3) => {
-        const _0x727f39 = _0x5aa66e;
-        _0x424b07[_0x727f39(0xdf)]([
-            _0x26fd5b[_0x26444a],
-            _0x2aa1ee[_0x26444a]
+}(_0x3a44, 0xe0a26));
+function _0x3a44() {
+    const _0x2f641c = [
+        'list_of_latitudes',
+        '9215604hyxsmf',
+        '3992391sXiFVs',
+        '1AVnFRC',
+        'push',
+        'mymap',
+        '115510IkptIy',
+        'getBounds',
+        'polygon_fill',
+        '22936890mbWOkh',
+        'zoom_map_to_this_polygon',
+        '3541783diZMiK',
+        'line_cap',
+        '22qbUAmb',
+        'fitBounds',
+        'polygon_name',
+        'length',
+        'data',
+        'draw_stroke',
+        '3039220GbFEak',
+        '16IWYQDY',
+        'stroke_color',
+        '284vEPKUo',
+        'fill_opacity',
+        'stroke_weight',
+        'geometry_clicked_name',
+        '2527302lKOqZM',
+        'stroke_opacity',
+        'list_of_longitudes'
+    ];
+    _0x3a44 = function () {
+        return _0x2f641c;
+    };
+    return _0x3a44();
+}
+function _0x11d3(_0x556fd7, _0x5993ba) {
+    const _0x3a444c = _0x3a44();
+    return _0x11d3 = function (_0x11d3ed, _0x273fbe) {
+        _0x11d3ed = _0x11d3ed - 0xa1;
+        let _0x283581 = _0x3a444c[_0x11d3ed];
+        return _0x283581;
+    }, _0x11d3(_0x556fd7, _0x5993ba);
+}
+function run(_0x532340, _0xfbb812, _0x6e6758) {
+    const _0x52543c = _0x11d3;
+    let _0x354c77 = [], _0xedd4f8 = (_0x11c94c, _0x43d0c5, _0x40252c) => {
+            let _0x115b13 = _0x11c94c['get'](_0x43d0c5, _0x40252c);
+            return _0x115b13;
+        }, _0x15ccaa = (_0x1bd332, _0x58f6e9) => {
+            let _0x4c5853 = _0xedd4f8(_0x1bd332, 0x0, _0x58f6e9);
+            return _0x4c5853;
+        }, _0x2db7c5 = _0x15ccaa(_0xfbb812[_0x52543c(0xab)], _0xfbb812[_0x52543c(0xab)]['length']()), _0x543a10 = _0x15ccaa(_0xfbb812[_0x52543c(0xaa)], _0xfbb812['list_of_longitudes'][_0x52543c(0xbb)]());
+    const _0x5a0cb8 = (_0x3f686a, _0x40b7c7, _0x357f2e) => {
+        const _0x21ead6 = _0x52543c;
+        _0x354c77[_0x21ead6(0xaf)]([
+            _0x2db7c5[_0x40b7c7],
+            _0x543a10[_0x40b7c7]
         ]);
     };
-    _0x26fd5b[_0x5aa66e(0xf3)](_0x572cc7);
-    let _0x4c5cd5 = {
-            'stroke': _0x4f1145['draw_stroke'],
-            'color': _0x4f1145['stroke_color'],
-            'weight': _0x4f1145['stroke_weight'],
-            'opacity': _0x4f1145[_0x5aa66e(0xe3)],
-            'lineCap': _0x4f1145[_0x5aa66e(0xfb)],
-            'lineJoin': _0x4f1145[_0x5aa66e(0xe2)],
-            'fill': _0x4f1145[_0x5aa66e(0xf7)],
-            'fillColor': _0x4f1145[_0x5aa66e(0xde)],
-            'fillOpacity': _0x4f1145[_0x5aa66e(0xf6)]
-        }, _0x36e89e = L[_0x5aa66e(0xe5)](_0x424b07, _0x4c5cd5);
-    _0x538bde[_0x5aa66e(0xea)]['' + _0x4f1145['polygon_name']] = _0x36e89e[_0x5aa66e(0xe1)](_0x538bde[_0x5aa66e(0xea)][_0x5aa66e(0xe4)]), _0x36e89e['on'](_0x5aa66e(0xf5), function () {
-        const _0x1927a5 = _0x5aa66e;
-        _0x538bde[_0x1927a5(0xed)]('geometry_clicked_name', _0x4f1145['polygon_name']);
-    }), _0x4f1145[_0x5aa66e(0xe9)] && _0x538bde['data'][_0x5aa66e(0xe4)][_0x5aa66e(0xf4)](_0x538bde[_0x5aa66e(0xea)]['' + _0x4f1145['polygon_name']]['getBounds']());
+    _0x2db7c5['forEach'](_0x5a0cb8);
+    let _0x289037 = {
+            'stroke': _0xfbb812[_0x52543c(0xbd)],
+            'color': _0xfbb812[_0x52543c(0xa3)],
+            'weight': _0xfbb812[_0x52543c(0xa6)],
+            'opacity': _0xfbb812[_0x52543c(0xa9)],
+            'lineCap': _0xfbb812[_0x52543c(0xb7)],
+            'lineJoin': _0xfbb812['line_join'],
+            'fill': _0xfbb812[_0x52543c(0xb3)],
+            'fillColor': _0xfbb812['fill_color'],
+            'fillOpacity': _0xfbb812[_0x52543c(0xa5)]
+        }, _0x46e02d = L['polygon'](_0x354c77, _0x289037);
+    _0x532340[_0x52543c(0xbc)]['' + _0xfbb812[_0x52543c(0xba)]] = _0x46e02d['addTo'](_0x532340[_0x52543c(0xbc)][_0x52543c(0xb0)]), _0x46e02d['on']('click', function () {
+        const _0x236c14 = _0x52543c;
+        _0x532340['publishState'](_0x236c14(0xa7), _0xfbb812['polygon_name']);
+    }), _0xfbb812[_0x52543c(0xb5)] && _0x532340[_0x52543c(0xbc)][_0x52543c(0xb0)][_0x52543c(0xb9)](_0x532340[_0x52543c(0xbc)]['' + _0xfbb812[_0x52543c(0xba)]][_0x52543c(0xb2)]());
 }
 	 run(instance, properties, context);
 }

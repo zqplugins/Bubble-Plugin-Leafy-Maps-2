@@ -1,157 +1,86 @@
 function(instance, properties, context){
-	function _0x38b7() {
-    const _0x1cea2b = [
-        'mymap',
-        'PAS0',
-        '72pJTEcZ',
-        'Atmospheric\x20pressure\x20on\x20mean\x20sea\x20level\x20(hPa)',
-        'data',
-        'Convective\x20precipitation\x20(mm)',
-        'Soil\x20temperature\x20>10\x20сm\x20(K)',
-        '300393zxFbDH',
-        'requested_date',
-        'https://tile.openweathermap.org/map/{layer}/{z}/{x}/{y}.png?appid={api_key}',
-        'http://maps.openweathermap.org/maps/2.0/weather/{op}/{z}/{x}/{y}?date={date_requested}&appid={api_key}',
-        '2uEnJkj',
-        'unique_name_for_this_overlay',
-        'precipitation_new',
-        'Precipitation',
-        'Clouds',
-        'Relative\x20humidity\x20(%)',
-        'temp_new',
-        'TA2',
-        '1175644NvfhPN',
-        '5889020feThuZ',
-        'tileLayer',
-        '1610805DAfOVF',
-        '364779zQbXgV',
-        'Air\x20temperature\x20at\x20a\x20height\x20of\x202\x20meters\x20(°C)',
-        'Wind\x20speed\x20at\x20an\x20altitude\x20of\x2010\x20meters\x20(m/s)',
-        'SD0',
-        'WS10',
-        'TS10',
-        'WND',
-        'Temperature\x20of\x20a\x20dew\x20point\x20(°C)',
-        'openweathermap_tile',
-        'TD2',
-        'Sea\x20level\x20pressure',
-        'Depth\x20of\x20snow\x20(m)',
-        'Joint\x20display\x20of\x20speed\x20wind\x20(color)\x20and\x20wind\x20direction\x20(arrows)\x20received\x20by\x20U\x20and\x20V\x20components\x20(m/s)',
-        'APM',
-        'HRD0',
-        'PA0',
-        'floor',
-        'Accumulated\x20precipitation\x20-\x20rain\x20(mm)',
-        'Openweathermap\x20API\x20key',
-        '100yRWwrJ',
-        'TS0',
-        '&copy;\x20<a\x20href=\x22https://openweathermap.org\x22>Openweather</a>',
-        'PAC0',
-        'wind_new',
-        'Accumulated\x20precipitation\x20(mm)',
-        'Accumulated\x20precipitation\x20-\x20snow\x20(m)',
-        'Cloudiness\x20(%)',
-        'Precipitation\x20intensity\x20(mm/s)',
-        'Wind\x20speed',
-        'PAR0',
-        '15194TrgDLm',
-        'openweather_tile',
-        'Soil\x20temperature\x200-10\x20сm\x20(K)',
-        'clouds_new',
-        'Temperature',
-        'keys',
-        '90546fmBwGG',
-        'overlay_name',
-        'PR0',
-        'pressure_new'
-    ];
-    _0x38b7 = function () {
-        return _0x1cea2b;
-    };
-    return _0x38b7();
+	function _0x564e(_0x45a041, _0x46f1fd) {
+    const _0x42d19f = _0x42d1();
+    return _0x564e = function (_0x564e3b, _0xc46bf9) {
+        _0x564e3b = _0x564e3b - 0x17d;
+        let _0x53197c = _0x42d19f[_0x564e3b];
+        return _0x53197c;
+    }, _0x564e(_0x45a041, _0x46f1fd);
 }
-(function (_0xf0f279, _0x2153d7) {
-    const _0x540664 = _0x5e96, _0x219181 = _0xf0f279();
+(function (_0x333e5c, _0x6f203f) {
+    const _0x359a31 = _0x564e, _0x2f0aef = _0x333e5c();
     while (!![]) {
         try {
-            const _0x40666f = parseInt(_0x540664(0xf6)) / 0x1 * (-parseInt(_0x540664(0x10b)) / 0x2) + parseInt(_0x540664(0x117)) / 0x3 + parseInt(_0x540664(0x113)) / 0x4 + parseInt(_0x540664(0xeb)) / 0x5 * (-parseInt(_0x540664(0xfc)) / 0x6) + -parseInt(_0x540664(0x116)) / 0x7 + parseInt(_0x540664(0x102)) / 0x8 * (-parseInt(_0x540664(0x107)) / 0x9) + parseInt(_0x540664(0x114)) / 0xa;
-            if (_0x40666f === _0x2153d7)
+            const _0x510b78 = -parseInt(_0x359a31(0x183)) / 0x1 + parseInt(_0x359a31(0x1aa)) / 0x2 + parseInt(_0x359a31(0x19b)) / 0x3 + parseInt(_0x359a31(0x1bb)) / 0x4 * (parseInt(_0x359a31(0x19c)) / 0x5) + parseInt(_0x359a31(0x185)) / 0x6 * (-parseInt(_0x359a31(0x192)) / 0x7) + parseInt(_0x359a31(0x1ad)) / 0x8 + -parseInt(_0x359a31(0x1a3)) / 0x9 * (parseInt(_0x359a31(0x187)) / 0xa);
+            if (_0x510b78 === _0x6f203f)
                 break;
             else
-                _0x219181['push'](_0x219181['shift']());
-        } catch (_0xb2c7ef) {
-            _0x219181['push'](_0x219181['shift']());
+                _0x2f0aef['push'](_0x2f0aef['shift']());
+        } catch (_0x58bb2d) {
+            _0x2f0aef['push'](_0x2f0aef['shift']());
         }
     }
-}(_0x38b7, 0x264d4));
-function _0x5e96(_0x39e9ec, _0x54d8d2) {
-    const _0x38b71b = _0x38b7();
-    return _0x5e96 = function (_0x5e9655, _0x3691ff) {
-        _0x5e9655 = _0x5e9655 - 0xdf;
-        let _0x2f37ed = _0x38b71b[_0x5e9655];
-        return _0x2f37ed;
-    }, _0x5e96(_0x39e9ec, _0x54d8d2);
-}
-function run(_0x4ec6a3, _0x9691ce, _0x2b317f) {
-    const _0x42ab44 = _0x5e96, _0x144810 = _0x14db52 => {
-            const _0x43a2f2 = _0x5e96;
-            let _0x526991 = [
+}(_0x42d1, 0xb0aa3));
+function run(_0x4976c8, _0xd44ac1, _0x391d62) {
+    const _0x187c4d = _0x564e, _0x5c6182 = _0x45e3d6 => {
+            const _0x7e784e = _0x564e;
+            let _0xee43e3 = [
                 'Clouds',
-                _0x43a2f2(0x10e),
-                _0x43a2f2(0xe2),
-                _0x43a2f2(0xf4),
-                _0x43a2f2(0xfa)
+                _0x7e784e(0x1a8),
+                _0x7e784e(0x18a),
+                _0x7e784e(0x18c),
+                _0x7e784e(0x184)
             ];
-            return _0x526991['includes'](_0x14db52);
+            return _0xee43e3[_0x7e784e(0x181)](_0x45e3d6);
         };
-    let _0x547cc2 = _0x144810(_0x9691ce[_0x42ab44(0xfd)]);
-    if (_0x9691ce[_0x42ab44(0xe0)] || _0x9691ce[_0x42ab44(0xfd)] && _0x547cc2 === ![]) {
-        const _0xad105c = (_0x798ba2, _0x2160fc) => {
-            const _0xddfabc = _0x42ab44;
-            if (_0x2160fc) {
-                if (_0x2160fc === _0xddfabc(0x105))
-                    return _0xddfabc(0xee);
+    let _0x39c325 = _0x5c6182(_0xd44ac1['overlay_name']);
+    if (_0xd44ac1[_0x187c4d(0x18d)] || _0xd44ac1[_0x187c4d(0x19e)] && _0x39c325 === ![]) {
+        const _0x5c0a5f = (_0x40c3f9, _0x265dce) => {
+            const _0x7240ed = _0x187c4d;
+            if (_0x265dce) {
+                if (_0x265dce === _0x7240ed(0x1a0))
+                    return _0x7240ed(0x1af);
                 else {
-                    if (_0x2160fc === 'Precipitation\x20intensity\x20(mm/s)')
-                        return _0xddfabc(0xfe);
+                    if (_0x265dce === _0x7240ed(0x1a5))
+                        return 'PR0';
                     else {
-                        if (_0x2160fc === 'Accumulated\x20precipitation\x20(mm)')
-                            return _0xddfabc(0xe7);
+                        if (_0x265dce === 'Accumulated\x20precipitation\x20(mm)')
+                            return 'PA0';
                         else {
-                            if (_0x2160fc === _0xddfabc(0xe9))
-                                return _0xddfabc(0xf5);
+                            if (_0x265dce === _0x7240ed(0x1b4))
+                                return _0x7240ed(0x1b5);
                             else {
-                                if (_0x2160fc === _0xddfabc(0xf1))
-                                    return _0xddfabc(0x101);
+                                if (_0x265dce === 'Accumulated\x20precipitation\x20-\x20snow\x20(m)')
+                                    return _0x7240ed(0x1b3);
                                 else {
-                                    if (_0x2160fc === _0xddfabc(0xe3))
-                                        return _0xddfabc(0x11a);
+                                    if (_0x265dce === _0x7240ed(0x194))
+                                        return _0x7240ed(0x19d);
                                     else {
-                                        if (_0x2160fc === _0xddfabc(0x119))
-                                            return _0xddfabc(0x11b);
+                                        if (_0x265dce === _0x7240ed(0x1b7))
+                                            return _0x7240ed(0x18b);
                                         else {
-                                            if (_0x2160fc === _0xddfabc(0xe4))
-                                                return _0xddfabc(0x11d);
+                                            if (_0x265dce === 'Joint\x20display\x20of\x20speed\x20wind\x20(color)\x20and\x20wind\x20direction\x20(arrows)\x20received\x20by\x20U\x20and\x20V\x20components\x20(m/s)')
+                                                return 'WND';
                                             else {
-                                                if (_0x2160fc === _0xddfabc(0x103))
-                                                    return _0xddfabc(0xe5);
+                                                if (_0x265dce === _0x7240ed(0x186))
+                                                    return 'APM';
                                                 else {
-                                                    if (_0x2160fc === _0xddfabc(0x118))
-                                                        return _0xddfabc(0x112);
+                                                    if (_0x265dce === _0x7240ed(0x1b9))
+                                                        return 'TA2';
                                                     else {
-                                                        if (_0x2160fc === _0xddfabc(0xdf))
-                                                            return 'TD2';
+                                                        if (_0x265dce === _0x7240ed(0x1b2))
+                                                            return _0x7240ed(0x1ac);
                                                         else {
-                                                            if (_0x2160fc === _0xddfabc(0xf8))
-                                                                return _0xddfabc(0xec);
+                                                            if (_0x265dce === _0x7240ed(0x1a7))
+                                                                return _0x7240ed(0x17d);
                                                             else {
-                                                                if (_0x2160fc === _0xddfabc(0x106))
-                                                                    return _0xddfabc(0x11c);
+                                                                if (_0x265dce === _0x7240ed(0x199))
+                                                                    return 'TS10';
                                                                 else {
-                                                                    if (_0x2160fc === _0xddfabc(0x110))
-                                                                        return _0xddfabc(0xe6);
+                                                                    if (_0x265dce === _0x7240ed(0x198))
+                                                                        return _0x7240ed(0x180);
                                                                     else {
-                                                                        if (_0x2160fc === 'Cloudiness\x20(%)')
+                                                                        if (_0x265dce === _0x7240ed(0x1a6))
                                                                             return 'CL';
                                                                     }
                                                                 }
@@ -168,49 +97,49 @@ function run(_0x4ec6a3, _0x9691ce, _0x2b317f) {
                     }
                 }
             } else {
-                if (_0x798ba2 === 'Convective\x20precipitation\x20(mm)')
-                    return _0xddfabc(0xee);
+                if (_0x40c3f9 === _0x7240ed(0x1a0))
+                    return _0x7240ed(0x1af);
                 else {
-                    if (_0x798ba2 === _0xddfabc(0xf3))
-                        return _0xddfabc(0xfe);
+                    if (_0x40c3f9 === _0x7240ed(0x1a5))
+                        return _0x7240ed(0x18e);
                     else {
-                        if (_0x798ba2 === _0xddfabc(0xf0))
-                            return _0xddfabc(0xe7);
+                        if (_0x40c3f9 === _0x7240ed(0x17e))
+                            return _0x7240ed(0x19f);
                         else {
-                            if (_0x798ba2 === _0xddfabc(0xe9))
-                                return _0xddfabc(0xf5);
+                            if (_0x40c3f9 === 'Accumulated\x20precipitation\x20-\x20rain\x20(mm)')
+                                return _0x7240ed(0x1b5);
                             else {
-                                if (_0x798ba2 === _0xddfabc(0xf1))
-                                    return _0xddfabc(0x101);
+                                if (_0x40c3f9 === _0x7240ed(0x1ab))
+                                    return _0x7240ed(0x1b3);
                                 else {
-                                    if (_0x798ba2 === _0xddfabc(0xe3))
-                                        return 'SD0';
+                                    if (_0x40c3f9 === 'Depth\x20of\x20snow\x20(m)')
+                                        return _0x7240ed(0x19d);
                                     else {
-                                        if (_0x798ba2 === _0xddfabc(0x119))
-                                            return _0xddfabc(0x11b);
+                                        if (_0x40c3f9 === _0x7240ed(0x1b7))
+                                            return _0x7240ed(0x18b);
                                         else {
-                                            if (_0x798ba2 === 'Joint\x20display\x20of\x20speed\x20wind\x20(color)\x20and\x20wind\x20direction\x20(arrows)\x20received\x20by\x20U\x20and\x20V\x20components\x20(m/s)')
-                                                return _0xddfabc(0x11d);
+                                            if (_0x40c3f9 === 'Joint\x20display\x20of\x20speed\x20wind\x20(color)\x20and\x20wind\x20direction\x20(arrows)\x20received\x20by\x20U\x20and\x20V\x20components\x20(m/s)')
+                                                return _0x7240ed(0x188);
                                             else {
-                                                if (_0x798ba2 === _0xddfabc(0x103))
-                                                    return _0xddfabc(0xe5);
+                                                if (_0x40c3f9 === _0x7240ed(0x186))
+                                                    return _0x7240ed(0x182);
                                                 else {
-                                                    if (_0x798ba2 === _0xddfabc(0x118))
-                                                        return _0xddfabc(0x112);
+                                                    if (_0x40c3f9 === 'Air\x20temperature\x20at\x20a\x20height\x20of\x202\x20meters\x20(°C)')
+                                                        return _0x7240ed(0x1b6);
                                                     else {
-                                                        if (_0x798ba2 === _0xddfabc(0xdf))
-                                                            return _0xddfabc(0xe1);
+                                                        if (_0x40c3f9 === _0x7240ed(0x1b2))
+                                                            return _0x7240ed(0x1ac);
                                                         else {
-                                                            if (_0x798ba2 === _0xddfabc(0xf8))
-                                                                return _0xddfabc(0xec);
+                                                            if (_0x40c3f9 === 'Soil\x20temperature\x200-10\x20сm\x20(K)')
+                                                                return _0x7240ed(0x17d);
                                                             else {
-                                                                if (_0x798ba2 === 'Soil\x20temperature\x20>10\x20сm\x20(K)')
-                                                                    return _0xddfabc(0x11c);
+                                                                if (_0x40c3f9 === 'Soil\x20temperature\x20>10\x20сm\x20(K)')
+                                                                    return _0x7240ed(0x1b0);
                                                                 else {
-                                                                    if (_0x798ba2 === _0xddfabc(0x110))
-                                                                        return 'HRD0';
+                                                                    if (_0x40c3f9 === _0x7240ed(0x198))
+                                                                        return _0x7240ed(0x180);
                                                                     else {
-                                                                        if (_0x798ba2 === _0xddfabc(0xf2))
+                                                                        if (_0x40c3f9 === 'Cloudiness\x20(%)')
                                                                             return 'CL';
                                                                     }
                                                                 }
@@ -228,46 +157,117 @@ function run(_0x4ec6a3, _0x9691ce, _0x2b317f) {
                 }
             }
         };
-        let _0x14a035 = _0xad105c(_0x9691ce[_0x42ab44(0xe0)], _0x9691ce[_0x42ab44(0xfd)]);
-        _0x4ec6a3[_0x42ab44(0x104)]['' + _0x9691ce['unique_name_for_this_overlay']] = L[_0x42ab44(0x115)](_0x42ab44(0x10a), {
-            'attribution': _0x42ab44(0xed),
+        let _0x45ff48 = _0x5c0a5f(_0xd44ac1[_0x187c4d(0x18d)], _0xd44ac1[_0x187c4d(0x19e)]);
+        _0x4976c8['data']['' + _0xd44ac1[_0x187c4d(0x197)]] = L[_0x187c4d(0x1a1)]('http://maps.openweathermap.org/maps/2.0/weather/{op}/{z}/{x}/{y}?date={date_requested}&appid={api_key}', {
+            'attribution': '&copy;\x20<a\x20href=\x22https://openweathermap.org\x22>Openweather</a>',
             'maxZoom': 0x14,
-            'op': _0x14a035,
-            'date_requested': Math[_0x42ab44(0xe8)](_0x9691ce[_0x42ab44(0x108)] / 0x3e8),
-            'api_key': _0x2b317f[_0x42ab44(0xfb)][_0x42ab44(0xea)]
-        })['addTo'](_0x4ec6a3['data'][_0x42ab44(0x100)]);
+            'op': _0x45ff48,
+            'date_requested': Math[_0x187c4d(0x17f)](_0xd44ac1[_0x187c4d(0x1ae)] / 0x3e8),
+            'api_key': _0x391d62[_0x187c4d(0x191)][_0x187c4d(0x1a9)]
+        })[_0x187c4d(0x1ba)](_0x4976c8[_0x187c4d(0x18f)][_0x187c4d(0x196)]);
     } else {
-        if (_0x9691ce[_0x42ab44(0xf7)] || _0x9691ce[_0x42ab44(0xfd)] && _0x547cc2 === !![]) {
-            const _0x1b3963 = (_0xd24029, _0xc30e8) => {
-                const _0x3853aa = _0x42ab44;
-                if (_0xd24029 === _0x3853aa(0x10f) || _0xc30e8 === _0x3853aa(0x10f))
-                    return _0x3853aa(0xf9);
+        if (_0xd44ac1[_0x187c4d(0x1a2)] || _0xd44ac1[_0x187c4d(0x19e)] && _0x39c325 === !![]) {
+            const _0x3df002 = (_0x45fff6, _0x564183) => {
+                const _0x3ca549 = _0x187c4d;
+                if (_0x45fff6 === 'Clouds' || _0x564183 === _0x3ca549(0x19a))
+                    return _0x3ca549(0x190);
                 else {
-                    if (_0xd24029 === _0x3853aa(0x10e) || _0xc30e8 === _0x3853aa(0x10e))
-                        return _0x3853aa(0x10d);
+                    if (_0x45fff6 === 'Precipitation' || _0x564183 === _0x3ca549(0x1a8))
+                        return _0x3ca549(0x1a4);
                     else {
-                        if (_0xd24029 === _0x3853aa(0xe2) || _0xc30e8 === _0x3853aa(0xe2))
-                            return _0x3853aa(0xff);
+                        if (_0x45fff6 === _0x3ca549(0x18a) || _0x564183 === _0x3ca549(0x18a))
+                            return _0x3ca549(0x195);
                         else {
-                            if (_0xd24029 === 'Wind\x20speed' || _0xc30e8 === _0x3853aa(0xf4))
-                                return _0x3853aa(0xef);
+                            if (_0x45fff6 === _0x3ca549(0x18c) || _0x564183 === _0x3ca549(0x18c))
+                                return _0x3ca549(0x193);
                             else {
-                                if (_0xd24029 === _0x3853aa(0xfa) || _0xc30e8 === _0x3853aa(0xfa))
-                                    return _0x3853aa(0x111);
+                                if (_0x45fff6 === _0x3ca549(0x184) || _0x564183 === _0x3ca549(0x184))
+                                    return _0x3ca549(0x1b1);
                             }
                         }
                     }
                 }
             };
-            let _0x15d02b = _0x1b3963(_0x9691ce[_0x42ab44(0xe0)], _0x9691ce['overlay_name']);
-            _0x4ec6a3[_0x42ab44(0x104)]['' + _0x9691ce[_0x42ab44(0x10c)]] = L[_0x42ab44(0x115)](_0x42ab44(0x109), {
-                'attribution': _0x42ab44(0xed),
+            let _0x155a04 = _0x3df002(_0xd44ac1[_0x187c4d(0x18d)], _0xd44ac1[_0x187c4d(0x19e)]);
+            _0x4976c8['data']['' + _0xd44ac1['unique_name_for_this_overlay']] = L[_0x187c4d(0x1a1)](_0x187c4d(0x189), {
+                'attribution': _0x187c4d(0x1b8),
                 'maxZoom': 0x14,
-                'layer': _0x15d02b,
-                'api_key': _0x2b317f[_0x42ab44(0xfb)]['Openweathermap\x20API\x20key']
-            })['addTo'](_0x4ec6a3[_0x42ab44(0x104)][_0x42ab44(0x100)]);
+                'layer': _0x155a04,
+                'api_key': _0x391d62[_0x187c4d(0x191)][_0x187c4d(0x1a9)]
+            })[_0x187c4d(0x1ba)](_0x4976c8[_0x187c4d(0x18f)]['mymap']);
         }
     }
+}
+function _0x42d1() {
+    const _0x1aacac = [
+        '527472wTPFFY',
+        'requested_date',
+        'PAC0',
+        'TS10',
+        'temp_new',
+        'Temperature\x20of\x20a\x20dew\x20point\x20(°C)',
+        'PAS0',
+        'Accumulated\x20precipitation\x20-\x20rain\x20(mm)',
+        'PAR0',
+        'TA2',
+        'Wind\x20speed\x20at\x20an\x20altitude\x20of\x2010\x20meters\x20(m/s)',
+        '&copy;\x20<a\x20href=\x22https://openweathermap.org\x22>Openweather</a>',
+        'Air\x20temperature\x20at\x20a\x20height\x20of\x202\x20meters\x20(°C)',
+        'addTo',
+        '16284bFJpEa',
+        'TS0',
+        'Accumulated\x20precipitation\x20(mm)',
+        'floor',
+        'HRD0',
+        'includes',
+        'APM',
+        '390159BmDtqI',
+        'Temperature',
+        '6497124HpEyOo',
+        'Atmospheric\x20pressure\x20on\x20mean\x20sea\x20level\x20(hPa)',
+        '10eldhkr',
+        'WND',
+        'https://tile.openweathermap.org/map/{layer}/{z}/{x}/{y}.png?appid={api_key}',
+        'Sea\x20level\x20pressure',
+        'WS10',
+        'Wind\x20speed',
+        'openweathermap_tile',
+        'PR0',
+        'data',
+        'clouds_new',
+        'keys',
+        '7WOtDSS',
+        'wind_new',
+        'Depth\x20of\x20snow\x20(m)',
+        'pressure_new',
+        'mymap',
+        'unique_name_for_this_overlay',
+        'Relative\x20humidity\x20(%)',
+        'Soil\x20temperature\x20>10\x20сm\x20(K)',
+        'Clouds',
+        '2271051isMpmV',
+        '450lCShJo',
+        'SD0',
+        'overlay_name',
+        'PA0',
+        'Convective\x20precipitation\x20(mm)',
+        'tileLayer',
+        'openweather_tile',
+        '3198087JrrxXc',
+        'precipitation_new',
+        'Precipitation\x20intensity\x20(mm/s)',
+        'Cloudiness\x20(%)',
+        'Soil\x20temperature\x200-10\x20сm\x20(K)',
+        'Precipitation',
+        'Openweathermap\x20API\x20key',
+        '2725268bgmgCD',
+        'Accumulated\x20precipitation\x20-\x20snow\x20(m)',
+        'TD2'
+    ];
+    _0x42d1 = function () {
+        return _0x1aacac;
+    };
+    return _0x42d1();
 }
 	 run(instance, properties, context);
 }
